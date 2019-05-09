@@ -1,0 +1,25 @@
+variable "ms_host" { 
+ description = "Management Server IP or hostname"
+ default = "10.192.9.108"
+}
+
+variable "access_key" { 
+ description = "CS API key"
+ default = ""
+}
+
+variable "secret_key" { 
+ description = "ACS secret key"
+ default = ""
+}
+
+
+variable "zone_name" {
+ description = "ACS zone name"
+ default = ""
+}
+
+variable "centos7_template" {
+ description = "centos7 template"
+ default = "http://xxx/centos7.qcow2"
+}
